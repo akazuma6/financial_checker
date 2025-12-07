@@ -141,13 +141,7 @@ DB_PASS=postgres
 DB_NAME=financial_checker
 ```
 
-### ポートが既に使用されている
 
-```bash
-# ポート5432が使用されている場合
-docker-compose down
-# docker-compose.ymlのportsセクションを変更（例: "5433:5432"）
-```
 
 ## ディレクトリ構成
 
